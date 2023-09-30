@@ -9,3 +9,11 @@ class Rectangle:
     def perimeter(self):
         return 2 * (self.length + self.width)
 
+# Create rectangle objects and calculate area and perimeter
+rectangle1 = Rectangle(55, 10)
+print("Rectangle 1 Area:", rectangle1.area())
+print("Rectangle 1 Perimeter:", rectangle1.perimeter())
+
+rectangle2 = Rectangle(88, 15)
+print("Rectangle 2 Area:", rectangle2.area())
+print("Rectangle 2 Perimeter:", rectangle2.perimeter())
