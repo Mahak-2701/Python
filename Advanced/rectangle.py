@@ -1,3 +1,4 @@
+# Rectangle is a class which contains a constructor and two methods.
 class Rectangle:
     def __init__(self, length, width):
         self.length = length
