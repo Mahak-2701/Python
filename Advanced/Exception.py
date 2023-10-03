@@ -21,3 +21,8 @@ print("Result 1:", divide_numbers(num1, num2))
 # Handling TypeError
 str_num = "5"
 print("Result 2:", divide_numbers(num1, str_num))
+
+# Handling unexpected errors
+num3 = 4
+num4 = 2
+print("Result 3:", divide_numbers(num3, num4))
