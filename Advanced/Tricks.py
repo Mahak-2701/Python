@@ -13,3 +13,7 @@ numbers = [2, 4, 6, 8, 10]
 average = sum(numbers) / len(numbers)
 print("Average of numbers:", average)
 
+# Filter Odd Numbers in a List:
+numbers = [2, 4, 6, 8, 10]
+odd_numbers = [num for num in numbers if num % 2 != 0]
+print("Odd numbers:", odd_numbers)
