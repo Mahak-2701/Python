@@ -10,3 +10,14 @@ def divide_numbers(a, b):
         print(f"An unexpected error occurred: {e}")
     finally:
         print("Exception handling completed.")
+
+# Usage
+num1 = int(input("Enter Numerator : "))
+num2 = int(input("Enter Denominator : "))
+
+# Handling ZeroDivisionError
+print("Result 1:", divide_numbers(num1, num2))
+
+# Handling TypeError
+str_num = "5"
+print("Result 2:", divide_numbers(num1, str_num))
