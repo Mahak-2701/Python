@@ -8,3 +8,8 @@ numbers = [2, 4, 6, 8, 10]
 max_number = max(numbers)
 print("Maximum number:", max_number)
 
+# Calculate the Average of Numbers in a List
+numbers = [2, 4, 6, 8, 10]
+average = sum(numbers) / len(numbers)
+print("Average of numbers:", average)
+
