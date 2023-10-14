@@ -5,5 +5,9 @@ def swapcomma_dot(string):
             swap+="."
         elif(i=="."):
             swap+=","
-        else
+        else:
             swap+=i
+
+value="mahak,tannu!"
+swapvalue=swapcomma_dot(value)
+print   
