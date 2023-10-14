@@ -10,4 +10,4 @@ def swapcomma_dot(string):
 
 value="mahak,tannu!"
 swapvalue=swapcomma_dot(value)
-print   
+print(swapvalue)
