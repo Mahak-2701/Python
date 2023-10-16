@@ -4,7 +4,7 @@ def print_permutations(string):
     permutations = itertools.permutations(string)
     # Print each permutation
     for permutation in permutations:
-        print(''.join(permutation))
+        # print(''.join(permutation))
 
 # Example usage
 s = "abcd"
