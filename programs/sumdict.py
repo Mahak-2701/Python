@@ -1,0 +1,10 @@
+# 21. Write a program to find the sum of dictionary values. 
+def returnSum(myDict): 
+ list= [] 
+ for i in myDict: 
+    list.append(myDict[i]) 
+ final = sum(list) 
+ return final 
+# Driver Function 
+dict = {'a': 100, 'b': 200, 'c': 300} 
+print("Sum :", returnSum(dict)) 
